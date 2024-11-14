@@ -1,0 +1,106 @@
+# Ignore build directories
+/build/
+/[Bb]uild*/
+
+# CMake files
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Compiled object files and executables
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Logs and databases
+*.log
+*.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.pid
+
+# OS-specific files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDE-specific files
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+*.iml
+cmake-build-*/
+
+# Visual Studio
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.usr
+*.ipch
+*.pdb
+*.idb
+*.opendb
+*.tlog
+*.log
+*.obj
+*.pch
+*.aps
+*.ncb
+*.sdf
+*.sqlite
+Debug/
+Release/
+
+# Xcode
+*.xcworkspace
+*.xcodeproj
+*.xcuserstate
+
+# Ignore test binaries and coverage reports
+/test-bin/
+*.gcno
+*.gcda
+*.gcov
+*.gcov.json
+*.prof
+
+# Ignore documentation files
+/doc/
+*.dox
+
+# Ignore dependency managers files (if any)
+/conanbuildinfo.cmake
+/conaninfo.txt
+/_deps/
+
+# Other generated files
+*.pyc
+__pycache__/
